@@ -1,0 +1,19 @@
+@keyframes slideIn {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .comparison-item {
+    animation: slideIn 1s forwards;
+    opacity: 0; /* 초기 상태는 보이지 않게 */
+  }
+  
+  .show {
+    opacity: 1; /* show 클래스가 추가되면 보이게 */
+  }
